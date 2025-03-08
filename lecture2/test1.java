@@ -7,6 +7,7 @@ public class test1 {
         float a= sc.nextFloat();
         float b= sc.nextFloat();
         int operater= sc.nextInt();
+        sc.close();
 
        switch (operater) {
         case 1:System.out.println(a+b);            
